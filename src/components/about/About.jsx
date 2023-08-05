@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import AboutImg from "../../assets/me.jpg"
-import CV from "../../assets/John-Cv.pdf"
+import CV from "../../assets/RickyHuangResume.pdf"
 import Info from './Info'
 
 const About = () => {
@@ -10,12 +10,20 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
-        <div className="about__data">
+        <div className='grid'>
+          <img src={AboutImg} alt="" className="about__img"/>  
           <Info/>
+        </div>
+        <div className="about__data grid">
+          {/* <Info/> */}
           <p className="about__description">
-          A software developer with 5 years of experience in C#.NET, Java, and Android. A personable, communicative developer who specializes in object-orientated programming languages. Graduated with a Master's of Engineering from University of Louisville Speed School.
-          When I am not working, I am usually building Android Apps for my side hustle, keeping up to date with stocks and credit cards, or hanging out with my girlfriend and two cats.
+          I am a software engineer boasting five years of expertise in a diverse array of programming languages, including C#.NET, Java, Python, and web technologies, along with proficiency in Android development. Holding a Master's of Engineering from the University of Louisville Speed School.
+          </p>
+          <p className="about__description">
+          Beyond my professional accomplishments, I channel my passion into crafting innovative Android applications during my off-hours. My appetite for knowledge drives me to continually explore new technologies and techniques, ensuring my skill set remains at the cutting edge of the industry.
+          </p>
+          <p className="about__description">
+          In addition to my technical pursuits, I maintain a keen interest in financial markets, diligently following stocks and credit card trends. When I step away from the digital realm, I enjoy spending quality time with my girlfriend and tending to the company of our two feline companions.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
