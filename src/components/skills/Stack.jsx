@@ -1,10 +1,9 @@
 import React from 'react'
 import Linux from "../../assets/linux.png"
-import Kotlin from "../../assets/kotlin.png"
-import Python from "../../assets/python.png"
-import CSharp from "../../assets/csharp.png"
-import Swift from "../../assets/swift.png"
-
+import Bash from "../../assets/bash.png"
+import Restful from "../../assets/restful.png"
+import Test from "../../assets/test.png"
+import Agile from "../../assets/agile.png"
 
 const Stack = () => {
   return (
@@ -21,28 +20,28 @@ const Stack = () => {
                 </div>
 
                 <div className="skills__data">
-                    <img src={Kotlin} className="icon__size"/>
+                    <img src={Bash} className="icon__size"/>
                     <div>
                         <h3 className="skills__name">Bash&nbsp;Script</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
-                    <img src={Python} className="icon__size"/>
+                    <img src={Restful} className="icon__size"/>
                     <div>
-                        <h3 className="skills__name">Cronjob</h3>
+                        <h3 className="skills__name">Restful&nbsp;API</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
-                    <img src={CSharp} className="icon__size"/>
+                    <img src={Test} className="icon__size"/>
                     <div>
                         <h3 className="skills__name">Unit&nbsp;Tests</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
-                    <img src={Swift} className="icon__size"/>
+                    <img src={Agile} className="icon__size"/>
                     <div>
                         <h3 className="skills__name">Agile</h3>
                     </div>

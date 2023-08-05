@@ -8,7 +8,7 @@ const Data = () => {
             Software Engineer
         </h3>
         <p className='home__description'>
-        A software developer with 2 years of experience in C#.NET, Java, and Android.
+        I am a enthusiastic software developer who enjoys building cool software and solving problems.
         </p>
         <a href="#contact" className="button button--flex">
             Say Hello

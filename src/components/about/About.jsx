@@ -14,7 +14,8 @@ const About = () => {
         <div className="about__data">
           <Info/>
           <p className="about__description">
-          A software developer with 2 years of experience in C#.NET, Java, and Android. A personable, communicative developer who specializes in object-orientated programming languages. Graduated with a Master's of Engineering from University of Louisville Speed School.
+          A software developer with 5 years of experience in C#.NET, Java, and Android. A personable, communicative developer who specializes in object-orientated programming languages. Graduated with a Master's of Engineering from University of Louisville Speed School.
+          When I am not working, I am usually building Android Apps for my side hustle, keeping up to date with stocks and credit cards, or hanging out with my girlfriend and two cats.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
