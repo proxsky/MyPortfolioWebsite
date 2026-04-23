@@ -1,0 +1,104 @@
+/* Container for the columns */
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for 2 projects */
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* The Outline Cards (Mimicking the Skills boxes) */
+.portfolio__content {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card Title */
+.portfolio__title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Project Description */
+.portfolio__description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.portfolio__subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+/* The Grid for the Tech Stack inside the card */
+.portfolio__group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Single Tech Item */
+.portfolio__data {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.portfolio__data i {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.portfolio__name {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Link Button */
+.portfolio__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: auto; /* Pushes button to the bottom if cards are different heights */
+  transition: 0.3s;
+}
+
+.portfolio__button:hover {
+  color: #000;
+}
+
+.portfolio__button-icon {
+  font-size: 1.25rem;
+  transition: transform 0.3s;
+}
+
+.portfolio__button:hover .portfolio__button-icon {
+  transform: translateX(0.25rem);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: 1fr; /* Stacks to 1 column on mobile */
+  }
+}
