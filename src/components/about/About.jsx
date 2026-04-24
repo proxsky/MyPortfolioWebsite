@@ -17,13 +17,13 @@ const About = () => {
         <div className="about__data grid">
           {/* <Info/> */}
           <p className="about__description">
-          I am a software engineer boasting five years of expertise in a diverse array of programming languages, including C#.NET, Java, Python, and web technologies, along with proficiency in Android development. Holding a Master's of Engineering from the University of Louisville Speed School.
+          I am a full-stack software engineer boasting extensive expertise in a diverse array of technologies, including React, AWS, Java, Python, and C#.NET, along with proficiency in cloud architecture and Android development. I hold a Master of Engineering in Computer Science and Engineering from the University of Louisville.
           </p>
           <p className="about__description">
-          Beyond my professional accomplishments, I channel my passion into crafting innovative Android applications during my off-hours. My appetite for knowledge drives me to continually explore new technologies and techniques, ensuring my skill set remains at the cutting edge of the industry.
+          Beyond my professional accomplishments, I channel my passion into crafting innovative applications during my off-hours. Recently, this includes building serverless platforms like ThemeParkStatus.com and a Fuzhounese language learning app, Fulingo.com. My appetite for knowledge drives me to continually explore new technologies, such as utilizing AI development workflows to accelerate the software lifecycle, ensuring my skill set remains at the cutting edge of the industry.
           </p>
           <p className="about__description">
-          In addition to my technical pursuits, I maintain a keen interest in financial markets, diligently following stocks and credit card trends. When I step away from the digital realm, I enjoy spending quality time with my girlfriend and tending to the company of our two feline companions.
+          In addition to my technical pursuits, I maintain a keen interest in financial markets, diligently following stocks, futures contracts, and credit card trends. When I step away from the digital realm, I enjoy exploring theme parks, spending quality time with my wife, and tending to the company of our feline companions.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
